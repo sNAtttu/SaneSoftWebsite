@@ -1,0 +1,10 @@
+@font-face{
+  font-family: CMDText;
+  src: url('./resources/fonts/FSEX300.ttf');
+}
+html, body {
+  background-color: black !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

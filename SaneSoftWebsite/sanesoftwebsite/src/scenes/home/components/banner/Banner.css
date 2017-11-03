@@ -1,0 +1,19 @@
+.banner{
+    text-align: left;
+    background-color: black;
+}
+.banner-title{
+    font-size:3em;
+    color:#4cfdad;
+    font-family: CMDText;
+}
+.banner-information{
+    border: #4cfdad dashed;
+    padding:1em;
+    margin-bottom:1em;
+}
+.CMDText-small{
+    color:#4cfdad;
+    font-family: CMDText;
+    font-size: 1.2em;
+}

@@ -1,0 +1,35 @@
+.commandbarContainer{
+    position:relative;
+    font-size:2em;
+}
+#commandTextInput{
+    background-color: black;
+    color:#4cfdad;
+    font-family: CMDText;
+    border:none;
+    outline:none;
+    float:left;
+}
+.commandCaret{
+    color:#4cfdad;
+    margin-right:0.5em;
+    float:left;
+}
+.CMDTEXT{
+    color:#4cfdad;
+    font-family: CMDText;
+    font-size: 2em;
+}
+
+.commandItem{
+    float:left;
+    width:100%;
+}
+
+.commandAnswer{
+    float:left;
+    width:100%;
+}
+.commandAnswer:before {
+    content: "\00BB \0020";
+}
