@@ -18,7 +18,7 @@
 .CMDTEXT{
     color:#4cfdad;
     font-family: CMDText;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .commandItem{
@@ -32,4 +32,7 @@
 }
 .commandAnswer:before {
     content: "\00BB \0020";
+}
+ul{
+    list-style: none;
 }

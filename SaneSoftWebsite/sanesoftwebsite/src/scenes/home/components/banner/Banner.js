@@ -14,7 +14,7 @@ class Banner extends Component {
               </div>
           </div>
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="banner-information">
                 <p className="CMDText-small"> Welcome to the CMD Version of SaneSoftwares website. </p>
                 <p className="CMDText-small"> Start using the website by typing commands like "MAIL" or "PHONE". </p>

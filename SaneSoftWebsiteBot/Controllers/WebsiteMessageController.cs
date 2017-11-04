@@ -39,6 +39,12 @@ namespace SaneSoftWebsiteBot.Controllers
                 case "email":
                     messageToReturn.Answer = "Email address: sanesofta@gmail.com";
                     break;
+                case "greeting":
+                    messageToReturn.Answer = "Console.WriteLine(\"Hello!\");";
+                    break;
+                case "wellness":
+                    messageToReturn.Answer = "I'm fine, thank you. Please don't bother to tell me how you are doing.";
+                    break;
                 case "phone":
                     messageToReturn.Answer = "SaneSoftware does not have phone capability.";
                     break;
